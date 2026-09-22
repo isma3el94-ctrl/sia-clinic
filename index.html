@@ -6,6 +6,25 @@
 <title>Sia Dental Clinic | عيادة سيا لطب الأسنان</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4B48NYW6F4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4B48NYW6F4');
+</script>
+
+<!-- Google Ads Conversion Tracking -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-9834189548"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-9834189548');
+</script>
+
 <style>
   :root{
     --sand:#F6F1E7;
@@ -385,6 +404,16 @@
     display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px;
     font-size:13px; opacity:0.65;
   }
+  .social-links{
+    display:flex; justify-content:center; gap:16px; margin:24px 0;
+  }
+  .social-links a{
+    display:inline-flex; align-items:center; justify-content:center;
+    width:44px; height:44px; background:var(--sage); color:var(--dark);
+    border-radius:50%; text-decoration:none; font-size:20px;
+    transition:all 0.3s ease;
+  }
+  .social-links a:hover{background:var(--sand); transform:scale(1.1);}
 
   @media (max-width:840px){
     .hero-inner{grid-template-columns:1fr;}
@@ -469,34 +498,34 @@
     </div>
     <div class="services">
       <div class="service">
-        <h3>General checkups</h3>
-        <span class="ar" dir="rtl">كشف وتنظيف الأسنان</span>
-        <p>Full examination, cleaning, and a clear treatment plan — no surprises.</p>
-      </div>
-      <div class="service">
-        <h3>Fillings &amp; treatment</h3>
-        <span class="ar" dir="rtl">حشو وعلاج الأسنان</span>
-        <p>Comfortable, modern fillings using materials matched to your tooth.</p>
-      </div>
-      <div class="service">
-        <h3>Implants</h3>
-        <span class="ar" dir="rtl">زراعة الأسنان</span>
-        <p>Permanent, natural-looking solutions for missing teeth.</p>
-      </div>
-      <div class="service">
-        <h3>Whitening</h3>
+        <h3>Teeth Whitening</h3>
         <span class="ar" dir="rtl">تبييض الأسنان</span>
-        <p>Safe, professional whitening for a noticeably brighter smile.</p>
+        <p>Transform your smile with our professional teeth whitening treatments. Using advanced, safe whitening technology, we brighten discolored teeth and restore your natural radiance in just one appointment. Achieve results that last.</p>
       </div>
       <div class="service">
-        <h3>Emergency care</h3>
-        <span class="ar" dir="rtl">حالات الطوارئ</span>
-        <p>Toothache or urgent issue? Call us — we'll fit you in quickly.</p>
+        <h3>Dental Implants</h3>
+        <span class="ar" dir="rtl">زراعة الأسنان</span>
+        <p>Replace missing teeth with permanent, natural-looking dental implants. Our expert team uses cutting-edge technology to restore your smile and improve your ability to eat and speak with confidence. Implants are the gold standard in tooth replacement.</p>
       </div>
       <div class="service">
-        <h3>Family dentistry</h3>
-        <span class="ar" dir="rtl">طب أسنان للعائلة</span>
-        <p>Gentle, patient care for every age, from kids to grandparents.</p>
+        <h3>Veneers</h3>
+        <span class="ar" dir="rtl">القشرة الخزفية</span>
+        <p>Enhance your smile with custom-made veneers. These thin, tooth-colored shells are bonded to your teeth to correct chips, stains, gaps, and misalignment. Achieve the perfect Hollywood smile in just a few appointments.</p>
+      </div>
+      <div class="service">
+        <h3>Dental Crowns</h3>
+        <span class="ar" dir="rtl">تاج الأسنان</span>
+        <p>Strengthen and restore damaged teeth with precision-fitted dental crowns. Whether damaged by decay or trauma, our crowns restore function and aesthetics while protecting your natural tooth structure for years to come.</p>
+      </div>
+      <div class="service">
+        <h3>Root Canal Treatment</h3>
+        <span class="ar" dir="rtl">علاج الجذور</span>
+        <p>Save your natural tooth with our painless root canal therapy. If you're experiencing tooth pain or infection, our specialists use gentle techniques to remove the diseased tissue and restore your tooth to full health and function.</p>
+      </div>
+      <div class="service">
+        <h3>Teeth Scaling</h3>
+        <span class="ar" dir="rtl">تنظيف الأسنان</span>
+        <p>Keep your teeth and gums healthy with professional cleaning and scaling. This essential preventive treatment removes tartar buildup and plaque, reducing the risk of gum disease and keeping your smile fresh and healthy.</p>
       </div>
     </div>
   </div>
@@ -749,11 +778,104 @@
         <a class="btn btn-outline" style="border-color:var(--sand); color:var(--sand);" href="tel:+201019180101" dir="ltr">0101 9180101</a>
       </div>
     </div>
+    <div class="social-links">
+      <a href="https://facebook.com/siadentalclinicc" target="_blank" rel="noopener" title="Follow us on Facebook">f</a>
+      <a href="https://instagram.com/sia.dentalclinic" target="_blank" rel="noopener" title="Follow us on Instagram">📷</a>
+    </div>
     <div class="foot-bottom">
       <span>Sia Dental Clinic — Shabab Road, El Shorouk, Cairo, Egypt</span>
     </div>
   </div>
 </footer>
+
+<!-- Event Tracking Script -->
+<script>
+  // Conversion Labels - Add these once you find them in Google Ads
+  const CONVERSION_LABELS = {
+    phone_click: '', // Add your phone call conversion label here
+    whatsapp_click: '', // Add your WhatsApp conversion label here
+    maps_click: '', // Add your Maps click conversion label here
+    video_engaged: '' // Add your video engagement conversion label here
+  };
+
+  // Track phone calls
+  document.querySelectorAll('a[href^="tel:"]').forEach(link => {
+    link.addEventListener('click', function() {
+      // GA4 event
+      gtag('event', 'phone_call', {
+        'phone_number': this.href.replace('tel:', ''),
+        'event_category': 'engagement'
+      });
+      // Google Ads conversion
+      if (CONVERSION_LABELS.phone_click) {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-9834189548/' + CONVERSION_LABELS.phone_click
+        });
+      }
+    });
+  });
+
+  // Track WhatsApp clicks
+  document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
+    link.addEventListener('click', function() {
+      // GA4 event
+      gtag('event', 'whatsapp_click', {
+        'event_category': 'engagement'
+      });
+      // Google Ads conversion
+      if (CONVERSION_LABELS.whatsapp_click) {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-9834189548/' + CONVERSION_LABELS.whatsapp_click
+        });
+      }
+    });
+  });
+
+  // Track Google Maps clicks
+  document.querySelectorAll('a[href*="maps.app.goo.gl"], a[href*="google.com/maps"]').forEach(link => {
+    link.addEventListener('click', function() {
+      // GA4 event
+      gtag('event', 'maps_click', {
+        'event_category': 'engagement'
+      });
+      // Google Ads conversion
+      if (CONVERSION_LABELS.maps_click) {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-9834189548/' + CONVERSION_LABELS.maps_click
+        });
+      }
+    });
+  });
+
+  // Track YouTube video engagement
+  document.querySelectorAll('iframe[src*="youtube.com/embed"]').forEach((iframe, index) => {
+    // Track when user clicks on the video player
+    iframe.addEventListener('click', function() {
+      gtag('event', 'video_engagement', {
+        'video_title': this.title || 'Patient Testimonial ' + (index + 1),
+        'event_category': 'engagement'
+      });
+      // Google Ads conversion
+      if (CONVERSION_LABELS.video_engaged) {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-9834189548/' + CONVERSION_LABELS.video_engaged
+        });
+      }
+    });
+  });
+
+  // Track page scroll (engagement metric)
+  let scrollTracked = false;
+  window.addEventListener('scroll', function() {
+    if (!scrollTracked && window.scrollY > 500) {
+      gtag('event', 'page_engagement', {
+        'scroll_depth': 'deep',
+        'event_category': 'engagement'
+      });
+      scrollTracked = true;
+    }
+  });
+</script>
 
 </body>
 </html>
